@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WANOSPORTSWEAR AND GEAR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="header-container">
+            <h1>WANOSPORTSWEAR AND GEAR</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+            </nav>
+            
+        </div>
+        <div class="search-bar-container">
+            <input type="text" id="search-bar" placeholder="Browse our products...">
+            <button id="clear-search">❌</button>
+            <button id="toggle-theme">🌙 Dark Mode</button>
+        </div>
+    </header>
+
+    
+    <main>
+        <div id="products-list" class="products-list">
+            
+            <div class="product-item">
+                <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/24a98bb0-0032-41ac-aa5d-82ae317507cd/ZM+SUPERFLY+10+ELITE+AG-PRO.png" alt="Nike Boots">
+                <h3>Nike Mercurial Boots</h3>
+                <p class="price">$209.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/2f3cf605-a7b0-455d-9c73-2ff6e6ace295/M+NK+DF+ACD23+TRK+SUIT+K+BR.png" alt="Football Tracksuit">
+                <h3>Nike Tracksuit</h3>
+                <p class="price">$59.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/4e93f619-eaec-40f2-82d7-4410138b3eeb/M+NK+DF+STRK+SHORT+KZ.png" alt="Nike Shorts">
+                <h3>Football Shorts</h3>
+                <p class="price">$29.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/e4229f09-927d-4aaa-9ef5-6ef86ab5a4d3/M+NK+DF+ACD+TOP+SS+GX.png" alt="Nike Top">
+                <h3>Nike Football Top</h3>
+                <p class="price">$39.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/d325632f-32ca-4d97-94a6-5f354e0f3188/NK+STRK+TEAM+290G+-+SP21.png" alt="Soccer ball">
+                <h3>Football</h3>
+                <p class="price">$19.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/3be31223-b7ef-49e6-a6df-578bd67b64a3/NK+MERC+FLYLITE+SL+-+FA22.png" alt="Shinguards">
+                <h3>Football Shinguards</h3>
+                <p class="price">$47.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div id="cart-section">
+                <h2>Your Cart</h2>
+                <ul id="cart-list"></ul>
+                <button id="clear-cart">Clear Cart</button>
+              </div>
+          
+              <div id="reviews-section">
+                <h2>Product Reviews</h2>
+                <div id="reviews-container"></div>
+              </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <div id="cart" class="cart-sidebar">
+        <h2>Your Cart</h2>
+        <div id="cart-slots" class="cart-slots">
+            
+        </div>
+        <p>Total: $<span id="total-price">0.00</span></p>
+        <button id="checkout-btn">Proceed to Checkout</button>
+    </div>
+
+    
+    <footer>
+        <div class="footer-container">
+            <p>© 2024 WanoSportswear and Gear | Designed for Champions</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Return & Exchange</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
